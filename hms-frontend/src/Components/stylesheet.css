@@ -1,0 +1,71 @@
+.Login{
+    margin-bottom: 20px;
+    border-bottom-color: #030303;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width: 50%;
+  }
+  
+  .Login:focus{
+    outline: none;
+  }
+
+  .Regispage{
+    margin-bottom: 20px;
+    border-bottom-color: #030303;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width: 98%;
+  }
+  
+  .Regispage:focus{
+    outline: none;
+  }
+
+  .Footer{
+    background-color: rgb(52, 58, 64);
+    color: white;
+    min-width: 100vw;
+    text-align: center;
+  }
+
+  /* background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%); */
+  .Instagrams{
+    /* background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); */
+
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+
+    font-size: 4em;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 50%;
+  }
+
+  .Icons{
+    font-size: 4em;
+  }
+  .IconRow{
+    text-align: center;
+    background-color: cornflowerblue;
+  }
+.IconCol{
+  color: white;
+  margin: 0px;
+}
+  .IconCol:hover{
+    color: black;
+  }
+.medlinks, .medlinks:hover, .medlinks:focus, .medlinks:active {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+html,body{
+  scroll-behavior: smooth;
+}
